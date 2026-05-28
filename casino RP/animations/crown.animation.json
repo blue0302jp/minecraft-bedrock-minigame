@@ -1,0 +1,35 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.crown.rotate": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"crown": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, -90, 0]
+					}
+				}
+			}
+		},
+		"animation.crown.changeColor": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"crownRed": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.5": {"pre": [1, 1, 1], "post": [0, 0, 0]}
+					}
+				},
+				"crownBlue": {
+					"scale": {
+						"0.0": [0, 0, 0],
+						"0.5": {"pre": [0, 0, 0], "post": [1, 1, 1]}
+					}
+				}
+			}
+		}
+	}
+}

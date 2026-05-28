@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.flip": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 10000,
+			"override_previous_animation": true,
+			"bones": {
+				"root": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.0417": [0, -7.5, 0],
+						"0.0833": [0, -12.5, 0],
+						"0.125": [0, -25, 0],
+						"1.0": [0, -180, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0417": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

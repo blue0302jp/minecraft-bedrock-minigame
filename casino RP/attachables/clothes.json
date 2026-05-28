@@ -1,0 +1,19 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "cosmetics:clothes",
+            "materials": {
+                "default": "entity_alphatest",
+                "enchanted": "entity_alphatest_glint"
+            },
+            "geometry": {
+                "default": "geometry.clothes"
+            },
+            "textures": {
+                "default": "textures/items/clothes"
+            },
+            "render_controllers": [ "controller.render.default" ]
+        }
+    }
+}
