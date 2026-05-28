@@ -1,6 +1,6 @@
 # minecraft-bedrock-minigame
 Minecraft Bedrock Script APIを用いたゲーム制作・個人開発
-Minecraft Bedrock Script API を用いて制作した、マリオカート風の対戦型ミニゲームです。
+Minecraft Bedrock Script API を用いて制作した、マリオカート風の対戦型ミニゲームとカジノで遊べるミニゲームマップです。
 プレイヤー同士がアイテムを使用しながら対戦できるゲームを目指して制作しました。
 
 ⸻
@@ -12,6 +12,7 @@ Minecraft Bedrock Script API を用いて制作した、マリオカート風の
 * アイテムシステム
 * ランダム要素を含むゲーム進行
 * プレイヤー同士の対戦機能
+* ルーレットやスロット等のモデル作成
 
 ⸻
 
@@ -20,8 +21,8 @@ Minecraft Bedrock Script API を用いて制作した、マリオカート風の
 * Minecraft Bedrock Script API
 * JavaScript
 * JSON
+* Block Bench
 * ChatGPT（仕様整理・コード生成補助）
-* Git / GitHub
 
 ⸻
 
@@ -38,3 +39,7 @@ AIを活用した開発
 動作検証と改善
 
 当時はScript APIに関する情報が少なく、生成AIが正しく動作しないコードを出力することも多かったため、公式リファレンスを参照しながら動作検証と修正を繰り返しました。
+
+アニメーション
+
+プレイ中の体験がより楽しいものとなるよう、レースゲーム中のアイテムのエフェクトやカジノでのルーレットやスロットのアニメーションを拘って作成しました。
