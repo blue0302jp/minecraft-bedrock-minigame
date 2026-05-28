@@ -1,0 +1,46 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "casino:slot",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:physics": {
+				"has_gravity": true,
+				"has_collision": true,
+				"push_towards_closest_space" : false
+			},
+			"minecraft:pushable": {
+				"is_pushable": false
+			},
+			"minecraft:push_through": {
+				"value": 0
+			},
+			"minecraft:collision_box": {
+				"width": 0,
+				"height": 0
+			},
+			"minecraft:custom_hit_test": {
+				"hitboxes": [
+				  {
+					"width": 1.2,
+					"height": 4.0,
+					"pivot": [ 0, 0.0, 0 ]
+				  }
+				]
+			  },
+			"minecraft:nameable": {
+				"alwaysShow": true,
+				"allowNameTagRenaming": true
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"deals_damage": false
+				}
+			}
+		}
+	}
+}
