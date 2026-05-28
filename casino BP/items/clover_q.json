@@ -1,0 +1,51 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "casino:clover_q"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "clover_q"
+      },
+      "minecraft:render_offsets": {
+        "main_hand": {
+          "first_person": {
+            "position": [
+              0.7,
+              0.0,
+              -0.5
+            ],
+            "rotation": [
+              90.0,
+              130.0,
+              0.0
+            ],
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          },
+          "third_person": {
+            "position": [
+              0.0,
+              1.0,
+              -0.5
+            ],
+            "rotation": [
+              90.0,
+              -120.0,
+              0.0
+            ],
+            "scale": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

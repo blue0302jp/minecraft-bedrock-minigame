@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.20",
+    "minecraft:item": {
+        "description": {
+            "identifier": "cosmetics:ender_dragon_wings",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.chestplate"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "ender_dragon_wings"
+            },
+            "minecraft:wearable": {
+                "slot": "slot.armor.chest"
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.chestplate"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:foil": false,
+            "minecraft:display_name":{
+                "value":"§l§6エンダードラゴンの羽"
+            }
+        }
+    }
+}
