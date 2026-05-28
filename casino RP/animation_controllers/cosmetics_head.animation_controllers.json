@@ -1,0 +1,21 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.cosmetics_head" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"transitions" : [
+						{ "crown": "query.property('cosmetics:head') == 3" }
+					]
+				},
+				"crown" : {
+					"animations" : [ "rotate_crown", "changeColor"],
+					"transitions" : [
+						{ "default": "!(query.property('cosmetics:head') == 3)" }
+					]
+				}
+			}
+		}
+	}
+}
