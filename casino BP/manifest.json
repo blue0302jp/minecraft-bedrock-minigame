@@ -1,0 +1,41 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "casino",
+		"description": "casino Behavior Pack",
+		"uuid": "84302e6e-46fe-4457-910a-68d06a4ae577",
+		"version": [1, 0, 1],
+		"min_engine_version": [1, 21, 0]
+	},
+	"metadata": {
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.5.1"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "05c21367-4636-4a52-91ab-35c1fad9eb2a",
+			"type": "data"
+		},
+		{
+            "description": "script module",
+            "type": "script",
+            "language" : "javascript",
+            "uuid": "ba5f9440-4efd-4971-8bf0-cae32c146870",
+            "version": [0, 0, 1],
+            "entry": "scripts/main.js"
+        }
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.17.0"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.1.0"
+		}
+	]
+}
