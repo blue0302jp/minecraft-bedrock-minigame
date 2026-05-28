@@ -1,0 +1,311 @@
+{
+  "resource_pack_name": "casino RP",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "heart_2": {
+      "textures": "textures/items/heart_2"
+    },
+    "heart_3": {
+      "textures": "textures/items/heart_3"
+    },
+    "heart_4": {
+      "textures": "textures/items/heart_4"
+    },
+    "heart_5": {
+      "textures": "textures/items/heart_5"
+    },
+    "heart_6": {
+      "textures": "textures/items/heart_6"
+    },
+    "heart_7": {
+      "textures": "textures/items/heart_7"
+    },
+    "heart_8": {
+      "textures": "textures/items/heart_8"
+    },
+    "heart_9": {
+      "textures": "textures/items/heart_9"
+    },
+    "heart_10": {
+      "textures": "textures/items/heart_10"
+    },
+    "heart_j": {
+      "textures": "textures/items/heart_j"
+    },
+    "heart_q": {
+      "textures": "textures/items/heart_q"
+    },
+    "heart_k": {
+      "textures": "textures/items/heart_k"
+    },
+    "heart_a": {
+      "textures": "textures/items/heart_a"
+    },
+    "clover_2": {
+      "textures": "textures/items/clover_2"
+    },
+    "clover_3": {
+      "textures": "textures/items/clover_3"
+    },
+    "clover_4": {
+      "textures": "textures/items/clover_4"
+    },
+    "clover_5": {
+      "textures": "textures/items/clover_5"
+    },
+    "clover_6": {
+      "textures": "textures/items/clover_6"
+    },
+    "clover_7": {
+      "textures": "textures/items/clover_7"
+    },
+    "clover_8": {
+      "textures": "textures/items/clover_8"
+    },
+    "clover_9": {
+      "textures": "textures/items/clover_9"
+    },
+    "clover_10": {
+      "textures": "textures/items/clover_10"
+    },
+    "clover_j": {
+      "textures": "textures/items/clover_j"
+    },
+    "clover_q": {
+      "textures": "textures/items/clover_q"
+    },
+    "clover_k": {
+      "textures": "textures/items/clover_k"
+    },
+    "clover_a": {
+      "textures": "textures/items/clover_a"
+    },
+    "diamond_2": {
+      "textures": "textures/items/diamond_2"
+    },
+    "diamond_3": {
+      "textures": "textures/items/diamond_3"
+    },
+    "diamond_4": {
+      "textures": "textures/items/diamond_4"
+    },
+    "diamond_5": {
+      "textures": "textures/items/diamond_5"
+    },
+    "diamond_6": {
+      "textures": "textures/items/diamond_6"
+    },
+    "diamond_7": {
+      "textures": "textures/items/diamond_7"
+    },
+    "diamond_8": {
+      "textures": "textures/items/diamond_8"
+    },
+    "diamond_9": {
+      "textures": "textures/items/diamond_9"
+    },
+    "diamond_10": {
+      "textures": "textures/items/diamond_10"
+    },
+    "diamond_j": {
+      "textures": "textures/items/diamond_j"
+    },
+    "diamond_q": {
+      "textures": "textures/items/diamond_q"
+    },
+    "diamond_k": {
+      "textures": "textures/items/diamond_k"
+    },
+    "diamond_a": {
+      "textures": "textures/items/diamond_a"
+    },
+    "spade_2": {
+      "textures": "textures/items/spade_2"
+    },
+    "spade_3": {
+      "textures": "textures/items/spade_3"
+    },
+    "spade_4": {
+      "textures": "textures/items/spade_4"
+    },
+    "spade_5": {
+      "textures": "textures/items/spade_5"
+    },
+    "spade_6": {
+      "textures": "textures/items/spade_6"
+    },
+    "spade_7": {
+      "textures": "textures/items/spade_7"
+    },
+    "spade_8": {
+      "textures": "textures/items/spade_8"
+    },
+    "spade_9": {
+      "textures": "textures/items/spade_9"
+    },
+    "spade_10": {
+      "textures": "textures/items/spade_10"
+    },
+    "spade_j": {
+      "textures": "textures/items/spade_j"
+    },
+    "spade_q": {
+      "textures": "textures/items/spade_q"
+    },
+    "spade_k": {
+      "textures": "textures/items/spade_k"
+    },
+    "spade_a": {
+      "textures": "textures/items/spade_a"
+    },
+    "joker_1": {
+      "textures": "textures/items/joker_1"
+    },
+    "joker_2": {
+      "textures": "textures/items/joker_2"
+    },
+    "$1tip": {
+      "textures": "textures/items/$1tip"
+    }, 
+    "members_card": {
+      "textures": "textures/items/members_card"
+    },
+    "00": {
+      "textures": "textures/items/00"
+    },
+    "0": {
+      "textures": "textures/items/0"
+    },
+    "1": {
+      "textures": "textures/items/1"
+    },
+    "2": {
+      "textures": "textures/items/2"
+    },
+    "3": {
+      "textures": "textures/items/3"
+    },
+    "4": {
+      "textures": "textures/items/4"
+    },
+    "5": {
+      "textures": "textures/items/5"
+    },
+    "6": {
+      "textures": "textures/items/6"
+    },
+    "7": {
+      "textures": "textures/items/7"
+    },
+    "8": {
+      "textures": "textures/items/8"
+    },
+    "9": {
+      "textures": "textures/items/9"
+    },
+    "10": {
+      "textures": "textures/items/10"
+    },
+    "11": {
+      "textures": "textures/items/11"
+    },
+    "12": {
+      "textures": "textures/items/12"
+    },
+    "13": {
+      "textures": "textures/items/13"
+    },
+    "14": {
+      "textures": "textures/items/14"
+    },
+    "15": {
+      "textures": "textures/items/15"
+    },
+    "16": {
+      "textures": "textures/items/16"
+    },
+    "17": {
+      "textures": "textures/items/17"
+    },
+    "18": {
+      "textures": "textures/items/18"
+    },
+    "19": {
+      "textures": "textures/items/19"
+    },
+    "20": {
+      "textures": "textures/items/20"
+    },
+    "21": {
+      "textures": "textures/items/21"
+    },
+    "22": {
+      "textures": "textures/items/22"
+    },
+    "23": {
+      "textures": "textures/items/23"
+    },
+    "24": {
+      "textures": "textures/items/24"
+    },
+    "25": {
+      "textures": "textures/items/25"
+    },
+    "26": {
+      "textures": "textures/items/26"
+    },
+    "27": {
+      "textures": "textures/items/27"
+    },
+    "28": {
+      "textures": "textures/items/28"
+    },
+    "29": {
+      "textures": "textures/items/29"
+    },
+    "30": {
+      "textures": "textures/items/30"
+    },
+    "31": {
+      "textures": "textures/items/31"
+    },
+    "32": {
+      "textures": "textures/items/32"
+    },
+    "33": {
+      "textures": "textures/items/33"
+    },
+    "34": {
+      "textures": "textures/items/34"
+    },
+    "35": {
+      "textures": "textures/items/35"
+    },
+    "36": {
+      "textures": "textures/items/36"
+    },
+
+//cosmetics
+    "barrier": {
+      "textures": "textures/blocks/barrier"
+    },
+    "clothes": {
+      "textures": "textures/items/cosmetics/clothes"
+    },
+    "crown": {
+      "textures": "textures/items/cosmetics/crown"
+    },
+    "angel_ring": {
+      "textures": "textures/items/cosmetics/angel_ring"
+    },
+    "gentleman_hat": {
+      "textures": "textures/items/cosmetics/gentleman_hat"
+    },
+
+
+    //body
+    "ender_dragon_wings": {
+      "textures": "textures/items/cosmetics/ender_dragon_wings"
+    }
+  }
+}
