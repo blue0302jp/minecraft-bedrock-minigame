@@ -1,0 +1,57 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:entity": {
+      "description": {
+        "identifier": "minerace:banana",
+        "is_spawnable": false,
+        "is_summonable": true,
+        "is_experimental": false
+      },
+  
+      "component_groups": {
+      },
+  
+      "components": {
+        "minecraft:collision_box": {
+          "width": 1.7,
+          "height": 1.7
+        },
+        "minecraft:health": {
+          "value": 10,
+          "max": 10
+        },
+        "minecraft:fire_immune": true,
+          "minecraft:physics": {
+        },
+        "minecraft:pushable": {
+          "is_pushable": false,
+          "is_pushable_by_piston": true
+        },
+      "minecraft:damage_sensor": {
+        "triggers":  [
+          {
+            "cause": "fall",
+            "deals_damage": false
+          },
+          {
+            "on_damage": {
+              "filters": {
+                  "any_of": [
+                    { "test": "is_family", "subject": "other", "value": "player" }
+                  ]
+              }
+            },
+            "deals_damage": false
+          }
+        ]
+      },  
+      "minecraft:conditional_bandwidth_optimization": {
+        }
+      },
+  
+      "events": {
+      }
+  
+    }
+  }
+  

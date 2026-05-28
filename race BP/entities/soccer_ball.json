@@ -1,0 +1,86 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:entity": {
+      "description": {
+        "identifier": "soccer:soccer_ball",
+        "is_spawnable": false,
+        "is_summonable": true,
+        "is_experimental": false
+      },
+      "components": {
+        "minecraft:collision_box": {
+          "width": 2.0,
+          "height": 2.0
+        },
+        "minecraft:custom_hit_test": {
+          "hitboxes": [
+            {
+              "width": 3.2,
+              "height": 3.2,
+              "pivot": [
+                0,
+                1,
+                0
+              ]
+            }
+          ]
+        },
+        "minecraft:health": {
+          "value": 999999,
+          "max": 999999
+        },
+        "minecraft:movement.amphibious": {
+          "max_turn": 0
+        },
+        "minecraft:movement": { "value": 0}, // ← ベース速度を上げる
+        "minecraft:behavior.random_stroll": {
+          "priority": 0,
+          "interval": 0,       // 頻繁に新しい目標を探す (例: 20ティックごと)
+          "speed_multiplier": 1.2, // 速度をさらに上げてみる
+          "xz_dist": 1,        // 水平方向の探索距離を長くする
+          "y_dist": 10          // 垂直方向の探索距離は維持
+        },
+        "minecraft:navigation.generic": {
+          "can_path_from_air" : false
+        },
+        "minecraft:friction_modifier" : {
+          "value" : 1
+        },
+        "minecraft:fire_immune": {},
+        "minecraft:physics": {
+        },
+        "minecraft:pushable": {
+          "is_pushable": true,
+          "is_pushable_by_piston": true
+        },
+        "minecraft:damage_sensor": {
+          "triggers": {
+            "cause": "fall",
+            "deals_damage": false
+          }
+        },
+        "minecraft:movement_sound_distance_offset" : {
+          "value" : 99999999
+        }
+      },
+  
+      "events": {
+        "minerace:move_shell": {
+          "add": {
+            "component_groups": ["minerace:move_shell", "minerace:initial_movement_speed"]
+          }
+        },
+        "minerace:increase_movement_speed": {
+          "remove": {
+            "component_groups" : ["minerace:initial_movement_speed"]
+          },
+          "add": {
+            "component_groups": ["minerace:increased_movement_speed"]
+          }
+
+        }
+      }
+  
+    }
+  }
+  

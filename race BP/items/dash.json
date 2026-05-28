@@ -1,0 +1,21 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:item": {
+        "description": {
+            "identifier": "mine_race:dash",
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "mine_race:dash"
+                }
+            },
+            "minecraft:display_name":{
+                "value": "キノコ"
+            }
+        }
+    }
+}

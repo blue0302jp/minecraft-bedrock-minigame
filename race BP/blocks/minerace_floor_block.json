@@ -1,0 +1,15 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "minerace:floor"
+        },
+        "components": {
+            "minecraft:display_name": "minerace:floor",
+            "minecraft:geometry": {
+                "identifier": "geometry.minerace_floor"
+            },
+            "minecraft:friction": 0
+        }
+    }
+}
