@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "casino:clover_k_horizontal",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/back2"
+			},
+			"geometry": {
+				"default": "geometry.clover_k_horizontal"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#a9ad26"
+			}
+		}
+	}
+}

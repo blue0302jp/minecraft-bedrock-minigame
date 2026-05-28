@@ -1,0 +1,24 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "casino:clover_8",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/clover_8"
+            },
+            "geometry": {
+                "default": "geometry.card"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ],
+            "spawn_egg": {
+                "base_color": "#000000",
+                "overlay_color": "#a9ad26"
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+      "description": {
+        "identifier": "cosmetics:angelskinmodel",
+        "materials": {
+          "default": "entity_alphatest"
+        },
+        "textures": {
+          "default": "textures/cosmetics/models/angelskinmodel"
+        },
+        "geometry": {
+          "default": "geometry.humanoid.customSlim"
+        },
+        "render_controllers": [
+          "controller.render.skinmodel"
+        ],
+        "enable_attachables": true
+      }
+    }
+  }
