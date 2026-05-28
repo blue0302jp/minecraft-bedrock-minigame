@@ -1,0 +1,31 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.clover_k_horizontal",
+				"texture_width": 1716,
+				"texture_height": 1280,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 5, 0],
+					"cubes": [
+						{
+							"origin": [-10, 1, 13.9],
+							"size": [20, 0.1, -28],
+							"uv": {
+								"up": {"uv": [3, 1280], "uv_size": [858, -1280]},
+								"down": {"uv": [1716, 0], "uv_size": [-858, 1280]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,4 @@
+entity.casino:clover_k.name=clover_K
+item.spawn_egg.entity.casino:clover_k.name=Spawn clover_K
+item.casino:tip=チップ
+item.casino:members_card=会員証

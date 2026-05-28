@@ -1,0 +1,40 @@
+{
+    "format_version" : "1.8.0",
+    "render_controllers" : {
+        "controller.render.cosmetics_head" : {
+            "arrays": {
+              "textures": {
+                "array.skins": [
+                  "texture.default",
+                  "texture.angel_ring",
+                  "texture.gentleman_hat",
+                  "texture.crown"
+                ]
+              },
+              "geometries": {
+                "array.geo": [
+                  "geometry.default",
+                  "geometry.angel_ring",
+                  "geometry.gentleman_hat",
+                  "geometry.crown"
+                ]
+              }
+            },
+            "materials" : [
+              {
+                "persona" : "Material.default"
+              }
+            ], 
+            "geometry" : "array.geo[query.property('cosmetics:head')]",
+            "textures" : [
+                "array.skins[query.property('cosmetics:head')]"
+            ],
+            "is_hurt_color": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 0.0
+            }
+        }
+    }
+}

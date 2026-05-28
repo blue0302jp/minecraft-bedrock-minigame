@@ -1,0 +1,36 @@
+{
+    "format_version" : "1.8.0",
+    "render_controllers" : {
+        "controller.render.cosmetics_body" : {
+            "arrays": {
+              "textures": {
+                "array.skins": [
+                  "texture.default",
+                  "texture.ender_dradon_wings"
+                ]
+              },
+              "geometries": {
+                "array.geo": [
+                  "geometry.default",
+                  "geometry.ender_dradon_wings"
+                ]
+              }
+            },
+            "materials" : [
+                {
+                  "*" : "Material.default"
+                }
+            ], 
+            "geometry" : "array.geo[query.property('cosmetics:body')]",
+            "textures" : [
+                "array.skins[query.property('cosmetics:body')]"
+            ],
+            "is_hurt_color": {
+                "r": 0.0,
+                "g": 0.0,
+                "b": 0.0,
+                "a": 0.0
+            }
+        }
+    }
+}

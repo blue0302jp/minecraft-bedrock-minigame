@@ -1,0 +1,21 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.elytra": {
+      "arrays": {
+        "textures": {
+          "array.skins": [
+            "Texture.default",
+            "Texture.enderman_cape",
+            "Texture.medival_torn_cape",
+            "Texture.mcd_sinister_cape",
+            "Texture.galaxy_cape"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "variable.is_enchanted ? Material.enchanted : Material.default" } ],
+      "textures": [ "array.skins[query.property('cosmetics:cape')]", "Texture.enchanted" ]
+    }
+  }
+}

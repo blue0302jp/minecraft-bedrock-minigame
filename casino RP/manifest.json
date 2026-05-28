@@ -1,0 +1,23 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "casino",
+		"description": "casino Resource Pack",
+		"uuid": "b7be230c-210b-0953-7ad6-d12d37962cf8",
+		"version": [1, 2, 1],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.5.1"]
+		}
+	},
+	"modules": [
+		{
+			"description": "casino",
+			"type": "resources",
+			"uuid": "66f3c1e9-9c36-fb97-b57c-252f8e3ea73a",
+			"version": [1, 0, 0]
+		}
+	]
+}
