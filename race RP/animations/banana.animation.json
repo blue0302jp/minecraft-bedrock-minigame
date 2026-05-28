@@ -1,0 +1,21 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.banana.invisible": {
+			"loop": true,
+			"bones": {
+				"banana": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.banana.visible": {
+			"loop": true,
+			"bones": {
+				"banana": {
+					"scale": 1
+				}
+			}
+		}
+	}
+}

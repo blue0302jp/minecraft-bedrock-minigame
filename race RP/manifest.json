@@ -1,0 +1,23 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "レース　resource pack",
+		"description": "テクスチャ、　モデル",
+		"uuid": "badb28cb-a032-4b89-86ed-47a862378e8d",
+		"version": [1, 2, 1],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.3.1"]
+		}
+	},
+	"modules": [
+		{
+			"description": "マインクラフトテスト",
+			"type": "resources",
+			"uuid": "11f58185-b1f9-45e2-998d-f6f3cd415150",
+			"version": [1, 0, 0]
+		}
+	]
+}

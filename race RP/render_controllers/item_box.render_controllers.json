@@ -1,0 +1,11 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.item_box": {
+      "geometry": "Geometry.default",
+      "part_visibility": [ { "base": "query.show_bottom" } ],
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.default" ]
+    }
+  }
+}

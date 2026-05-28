@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "myname:jump_pad",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/jump_pad"
+			},
+			"geometry": {
+				"default": "geometry.jump_pad"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#3390fc",
+				"overlay_color": "#c17bbc"
+			}
+		}
+	}
+}

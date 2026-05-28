@@ -1,0 +1,17 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.soccer_ball.rolling": {
+			"loop": true,
+			"animation_length": 1.5,
+			"bones": {
+				"ball": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.5": [360, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

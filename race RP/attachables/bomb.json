@@ -1,0 +1,19 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "bomberman:bomb",
+            "materials": {
+                "default": "entity_alphatest",
+                "enchanted": "entity_alphatest_glint"
+            },
+            "geometry": {
+                "default": "geometry.block"
+            },
+            "textures": {
+                "default": "textures/blocks/tnt"
+            },
+            "render_controllers": [ "controller.render.default" ]
+        }
+    }
+}

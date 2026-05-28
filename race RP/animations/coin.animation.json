@@ -1,0 +1,17 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.coin.flip": {
+			"loop": true,
+			"animation_length": 4,
+			"bones": {
+				"coin": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"4.0": [0, 360, 0]
+					}
+				}
+			}
+		}
+	}
+}

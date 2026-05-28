@@ -1,0 +1,30 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minerace:banana",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/banana"
+      },
+      "geometry": {
+        "default": "geometry.banana"
+      },
+      "animations": {
+        "look_at_target_default": "animation.humanoid.look_at_target.default",
+        "look_at_target_gliding": "animation.humanoid.look_at_target.gliding",
+        "look_at_target_swimming": "animation.humanoid.look_at_target.swimming",
+        "visible": "animation.banana.visible",
+        "invisible": "animation.banana.invisible"
+      },
+      "animation_controllers": [
+        {"look_at_target" : "controller.animation.humanoid.look_at_target"}
+      ],
+      "render_controllers": [ 
+        "controller.render.banana"
+      ]
+    }
+  }
+} 

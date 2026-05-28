@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "myname:minecraft_test",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/minecraft_test"
+			},
+			"geometry": {
+				"default": "geometry.minecraft_test"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#3390fc",
+				"overlay_color": "#c17bbc"
+			}
+		}
+	}
+}

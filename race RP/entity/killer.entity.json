@@ -1,0 +1,30 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minerace:killer",
+      "materials": {
+        "default": "ender_crystal"
+      },
+      "textures": {
+        "default": "textures/entity/killer"
+      },
+      "geometry": {
+        "default": "geometry.killer"
+      },
+      "animations": {
+        "boost": "animation.killer.boost",
+        "look_at_target_default": "animation.humanoid.look_at_target.default",
+        "look_at_target_gliding": "animation.humanoid.look_at_target.gliding",
+        "look_at_target_swimming": "animation.humanoid.look_at_target.swimming"
+      },
+      "animation_controllers": [
+        {"boost" : "controller.animation.killer.boost"},
+        {"look_at_target" : "controller.animation.humanoid.look_at_target"}
+      ],
+      "render_controllers": [ 
+        "controller.render.killer"
+      ]
+    }
+  }
+} 
